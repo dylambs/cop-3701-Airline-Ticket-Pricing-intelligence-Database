@@ -14,3 +14,6 @@
   
   Data Sources:
   https://www.kaggle.com/datasets/nikhilmittal/flight-fare-prediction-mh/code
+
+  DB Application:
+  Oracle
