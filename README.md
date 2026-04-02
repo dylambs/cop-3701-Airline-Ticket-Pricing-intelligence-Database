@@ -11,6 +11,9 @@
   - network planners
   - marketing teams
   - company stakeholders
+
+  Final ER Design:
+  database_er.md
   
   Data Sources:
   https://www.kaggle.com/datasets/nikhilmittal/flight-fare-prediction-mh/code
