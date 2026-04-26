@@ -14,11 +14,10 @@ DB_DSN = "localhost:1521/XE"
 
 import oracledb
 
-# FORCE THICK MODE (THIS IS THE FIX)
 oracledb.init_oracle_client(lib_dir=r"C:\oracle\instantclient_21_10")
 
 DB_USER = "SYSTEM"
-DB_PASSWORD = "Aas102206"
+DB_PASSWORD = "YOUR_PASSWORD"
 DB_DSN = "localhost:1521/XE"
 
 def connect():
