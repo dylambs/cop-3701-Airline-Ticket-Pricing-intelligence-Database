@@ -5,7 +5,7 @@ oracledb.init_oracle_client(lib_dir=r"C:\oracle\instantclient_21_10")
 def connect():
     return oracledb.connect(
         user="SYSTEM",
-        password="Aas102206",
+        password="YOUR_PASSWORD",
         dsn="localhost:1521/XE"
     )
 
