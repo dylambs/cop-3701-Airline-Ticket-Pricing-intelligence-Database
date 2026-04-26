@@ -8,12 +8,6 @@ import oracledb
 BASE_DIR = Path(__file__).resolve().parent
 CSV_DIR = BASE_DIR / "csv"
 
-DB_USER = os.getenv("ORACLE_USER", "SYSTEM")
-DB_PASSWORD = os.getenv("ORACLE_PASSWORD", "YOUR_PASSWORD")
-DB_DSN = "localhost:1521/XE"
-
-import oracledb
-
 oracledb.init_oracle_client(lib_dir=r"C:\oracle\instantclient_21_10")
 
 DB_USER = "SYSTEM"
